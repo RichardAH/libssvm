@@ -39,7 +39,6 @@ if(Boost_FOUND)
         ./interpreter/engine/variable.cpp
         ./validator/validator.cpp
         ./validator/formchecker.cpp
-        ./main.cpp
         ./vm/vm.cpp
         ./support/log.cpp
         ./support/hexstr.cpp
