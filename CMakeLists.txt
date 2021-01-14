@@ -11,7 +11,7 @@ if(Boost_FOUND)
     include_directories(${Boost_INCLUDE_DIRS})
     include_directories(include)
     add_library(
-        libssvm OBJECT
+        libssvm STATIC
         lib/loader/loader.cpp
         lib/loader/ldmgr.cpp
         lib/loader/filemgr.cpp
